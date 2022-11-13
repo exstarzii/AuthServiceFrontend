@@ -3,7 +3,7 @@
 This is a portfolio project that implements minimal functionality for user authorization and registration. <br />
 Written using the Quasar framework, Axios. <br />
 This is the front part, the server part - [AuthServerServer](https://github.com/exstarzii/AuthServiceServer). <br />
-deployed application - [auth-service-frontend]https://auth-service-frontend.vercel.app
+deployed application - [auth-service-frontend](https://auth-service-frontend.vercel.app)
 
 ## Install the dependencies
 ```bash
