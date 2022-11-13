@@ -60,7 +60,7 @@ module.exports = configure(function (ctx) {
     build: {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       env: {
-        VUE_APP_BASE_URL:'http://localhost:3000'
+        VUE_APP_BASE_URL:ctx.dev?'http://localhost:3000':process.env.VUE_APP_BASE_URL
       }
       // transpile: false,
       // publicPath: '/',
