@@ -1,8 +1,8 @@
 ## Description
 
-This is a portfolio project that implements minimal functionality for user authorization and registration
-Written using the Quasar framework, Axios
-This is the front part, the server part - [AuthServerServer](https://github.com/exstarzii/AuthServiceServer)
+This is a portfolio project that implements minimal functionality for user authorization and registration.
+Written using the Quasar framework, Axios.
+This is the front part, the server part - [AuthServerServer](https://github.com/exstarzii/AuthServiceServer).
 
 ## Install the dependencies
 ```bash
