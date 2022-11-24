@@ -65,6 +65,7 @@ export default defineComponent({
         console.log(response);
         this.$q.notify('Logged');
         store.token = response.data.access_token;
+        this.$router.push({path:'/userinfo'});
       }).catch( (error) => {
         if(error.response.status == 401){
           this.$q.notify({
